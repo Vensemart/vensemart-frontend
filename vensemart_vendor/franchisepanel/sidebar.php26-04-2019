@@ -1,0 +1,139 @@
+
+      <!-- start of LOGO CONTAINER -->
+       <div id="logo-container" class="text-center">
+         <a href="index.php" id="logo-img">
+         <!-- <img src="back-office_poland.jpg" style="margin-top: -8px; width: 250px;" alt="" />-->
+
+           <img src="images/logo.png" class="big-logo" style="width: 121px;" alt="" />
+
+         <img src="images/logo.png" data-no-retina="" class="small-logo"   width="50" alt="" />
+        </a>
+      </div>
+
+  
+
+      <!-- end of LOGO CONTAINER -->
+
+      <!-- - - - - - - - - - - - - -->
+      <!-- start of SIDEBAR        -->
+      <!-- - - - - - - - - - - - - -->
+      <div id="sidebar">
+        <div class="sidebar_scroll"> <!-- start of slimScroll -->
+
+          <!--
+          <div class="welcome">
+            <div class="left">
+              <div class="img-container">
+                <img src="../demofiles/demoimage.gif" class="welcome-img">
+              </div>
+            </div>
+
+            <div class="right">
+              <span>Welcome, <strong>Bruno</strong></span>
+              <ul class="user-options">
+                <li><a href="#"><i class="ti-user"></i></a></li>
+                <li><a href="#"><i class="ti-pencil"></i></a></li>
+                <li><a href="#"><i class="ti-settings"></i></a></li>
+                <li><a href="#"><i class="ti-power-off"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          -->
+
+          <ul class="nav lg-menu" id="main-nav" style="font-size:16px;font-weight:bold;">
+            <!-- <li class="sidebar-title"></li> -->
+             <li><a href="index.php"> <i class="ti-dashboard"></i> <span>Dashboard</span></a></li>
+             <li><a href="#"> <i class="ti-user"></i> <span>My Account</span> <i class="pull-right has-submenu ti-angle-right"></i></a>
+              <ul class="nav nav-submenu submenu-hidden" style="font-size:16px;font-weight:bold;"> 
+               
+                <li><a href="update-profile.php">My Profile</a></li>
+                 
+                 <li><a href="kyc_status.php">Kyc Management</a></li>
+                
+                 
+              </ul>
+            </li>
+            <li><a href="#"> <i class="ti-user"></i> <span>My Fund Wallet</span> <i class="pull-right has-submenu ti-angle-right"></i></a>
+              <ul class="nav nav-submenu submenu-hidden" style="font-size:16px;font-weight:bold;"> 
+                <li><a href="upload-payment.php">Admin Add Fund Request</a></li>
+                <li><a href="fund-request-history.php">Add Fund Request History</a></li>
+              
+                            
+                 <li><a href="fund-wallet-transaction-history.php">Fund Wallet Transaction History</a></li>
+             
+              </ul>
+            </li>
+       
+
+
+             <li><a href="#"> <i class="ti-stats-up"></i> <span>My Income Report</span> <i class="pull-right has-submenu ti-angle-right"></i> </a>
+              <ul class="nav nav-submenu submenu-hidden">
+              <li><a href="sponsor-income.php">My Sale Income Report</a></li>
+              <li><a href="all_expense_report.php">My Expense Report</a></li>
+              
+              </ul>
+            </li>
+
+             <li><a href="#"> <i class="ti-user"></i> <span>Member Management</span> <i class="pull-right has-submenu ti-angle-right"></i> </a>
+              <ul class="nav nav-submenu submenu-hidden">
+              <!--   <li><a href="direct-sponsor-member-report.php">Pending ID Request</a></li>
+                <li><a href="downline-member-report.php">Approved ID Request</a></li>-->
+                <li><a href="poc_user_request.php"> Members Reports</a></li> 
+                <li><a href="total_poc_user_request.php">Activated Request</a></li> 
+                 <li><a href="today_activation_request.php">Today Activated Request</a></li> 
+
+                 <li><a href="poc_pending_request.php">Pending Fund Request</a></li>
+                 <li><a href="poc_approved_request.php">Approved Fund Request</a></li>                 
+                 <li><a href="external-fund-tranfer.php">Fund Transfer</a></li>
+              </ul>
+            </li>
+<li><a href="#"> <i class="ti-agenda"></i> <span>Product Management</span> <i class="pull-right has-submenu ti-angle-right"></i> </a>
+              <ul class="nav nav-submenu submenu-hidden">
+           <li><a href="eshop.php"> Store Orders</a></li> 
+                <li><a href="all_product.php"> Store product list</a></li> 
+
+               <li><a href="product_eshop.php"> PUC Product Transfer</a></li>
+               <li><a href="product-transaction-history.php"> Product Transaction history</a></li>
+                
+              </ul>
+            </li>
+          <li><a href="#"> <i class="ti-agenda"></i> <span>Invoice Section</span> <i class="pull-right has-submenu ti-angle-right"></i> </a>
+              <ul class="nav nav-submenu submenu-hidden"> 
+
+                   <li><a href="purchaseinvoice-report.php">User Product Invoices</a></li>
+<li><a href="puc-purchaseinvoice-report.php">PUC Purchases Invoices</a></li>
+                
+               
+                </ul>
+            </li>
+
+           
+            
+
+          
+
+           
+
+    
+
+
+
+             <li><a href="#"> <i class="ti-file"></i> <span>Media & Documents</span> <i class="pull-right has-submenu ti-angle-right"></i> </a>
+              <ul class="nav nav-submenu submenu-hidden"> 
+                <li><a href="terms-and-condition.php">Terms & Conditions</a></li>
+                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+          
+                </ul>
+            </li>
+           
+
+           <li><a href="../logoutpoc.php"> <i class="ti-dashboard"></i> <span>Sign-out</span></a>
+            
+           
+
+          </ul>
+        </div> <!-- end of slimScroll -->
+      </div>
+      <!-- - - - - - - - - - - - - -->
+      <!-- end of SIDEBAR          -->
+      <!-- - - - - - - - - - - - - -->

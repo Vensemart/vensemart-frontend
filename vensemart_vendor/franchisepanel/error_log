@@ -1,0 +1,1 @@
+[01-Feb-2023 09:23:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vensrazg/public_html/vensemart_vendor/lib/config.php on line 2
